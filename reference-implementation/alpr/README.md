@@ -1,10 +1,11 @@
 # Automatic License Plate Recognition
 
 ## Software   
-OS: Ubuntu 20.04/22.04   
-Docker   
-Intel DL Streamer 2022.3.0   
-Intel OpenVINO Toolkit 2022.3.0   
+OS: Ubuntu 20.04   
+Docker Image: [intel/dlstreamer:devel](https://hub.docker.com/layers/intel/dlstreamer/devel/images/sha256-3d211ab50bcdd3d9c4a71d18893c826e9a3717d3301f4a1b5b7aa68563ce78d5?context=explore)   
+Intel DL Streamer 2023.0.0   
+Intel OpenVINO Toolkit 2023.0.0   
+PaddlePaddle 2.6.2
 
 ## Models
 Vehicle license plate detection - [vehicle-license-plate-detection-barrier-0123](https://github.com/openvinotoolkit/open_model_zoo/tree/master/models/public/vehicle-license-plate-detection-barrier-0123)   
@@ -25,7 +26,7 @@ chmod -R 777 ./
 ```
 ./scripts/download_model.sh
 ```
-3. Run the ALPR pipeline   
+3. Copy the input video file (named as test_input.mp4) to the assets directory and run the ALPR pipeline    
 ```
 ./run_alpr_pp_ocr.sh   
 ```
