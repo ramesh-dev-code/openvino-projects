@@ -5,7 +5,7 @@ import cv2
 import collections
 import time
 import numpy as np
-from notebook_utils import VideoPlayer
+from utils import VideoPlayer
 import sys
 
 det_model_path = Path(r"best_openvino_model\best.xml")
