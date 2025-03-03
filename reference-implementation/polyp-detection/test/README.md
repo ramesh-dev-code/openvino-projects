@@ -1,7 +1,9 @@
-# Polyp Detection in Input Video with Optimized YOLOv11n Model using OpenVINO   
+# Deploying YOLOv11n-based Polyp Detection in Colonoscopy Video on AI PC Model using OpenVINO   
 
 ## Device Under Test   
 Processor: Intel Core Ultra 7 165U   
+iGPU: Intel Graphics (Driver: 32.0.101.5763)   
+NPU: Intel AI Boost (Driver: 32.0.100.3104)   
 RAM: 32GB   
 OS: Widows 11 Enterprise (23H2)   
 Python: 3.10.11   
