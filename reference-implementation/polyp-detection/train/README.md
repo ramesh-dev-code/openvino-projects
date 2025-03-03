@@ -1,5 +1,6 @@
 ## Training YOLOv11n on Colonoscopy Dataset using Intel Arc A770 GPU
-### [Colonoscopy Dataset](https://github.com/dashishi/LDPolypVideo-Benchmark?tab=readme-ov-file)
+### Dataset
+Download the [Colonoscopy dataset](https://github.com/dashishi/LDPolypVideo-Benchmark?tab=readme-ov-file#download)   
 Normalize the annoation coordinates to YOLO format using preprocess.py   
 ### Model Training   
 #### Training Platform   
