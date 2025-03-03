@@ -14,6 +14,7 @@ torchaudio: 2.5.1+xpu
 Ultralytics: 8.3.72       
 
 #### Prerequisite
+Install [GPU/OpenCL driver for Ubuntu 22.04](https://dgpu-docs.intel.com/driver/client/overview.html#installing-client-gpus-on-ubuntu-desktop-22-04-lts)      
 Install [Intel-Optimized PyTorch 2.5](https://www.intel.com/content/www/us/en/developer/articles/tool/pytorch-prerequisites-for-intel-gpu/2-5.html) for training the model on Intel GPUs
 
 #### Installation    
