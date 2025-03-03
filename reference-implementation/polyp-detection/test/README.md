@@ -10,6 +10,10 @@ Python: 3.10.11
 OpenVINO: 2025.0.0   
 Ultralytics: 8.3.59   
 
+## Prerequisites   
+Install [GPU driver for Windows](https://www.intel.com/content/www/us/en/download/785597/846697/intel-arc-iris-xe-graphics-windows.html)    
+Install [NPU driver for Windows](https://www.intel.com/content/www/us/en/download/794734/838895/intel-npu-driver-windows.html) using these [steps](https://downloadmirror.intel.com/838895/NPU_Win_Release_Notes_v3104.pdf)   
+
 ## Installation   
 1. Create a Python virtual environment
    ``` 
