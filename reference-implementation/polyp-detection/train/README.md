@@ -7,5 +7,7 @@ Host: Intel Core Ultra 7 155H Processor
 Discrete GPU: Intel Arc A770 GPU (Driver: 24.39.31294)   
 OS: Ubuntu 22.04 (Kernel: 6.8.0-52-generic)   
 Python: 3.10.12    
-PyTorch: torch 2.5-xpu      
+torch: 2.5.1+xpu      
+torchvision: 0.20.1+xpu   
+torchaudio: 2.5.1+xpu   
 Ultralytics: 8.3.72       
