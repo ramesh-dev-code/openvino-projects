@@ -28,6 +28,7 @@ python optimize_yolov11n.py
 ```
 
 ## Run Polyp Detection   
+Download the [input video](https://github.com/dashishi/LDPolypVideo-Benchmark?tab=readme-ov-file#download) and provide the valid path to the input video and the optimized model (.xml) in yolov11n_polyp_detection.py
 ```
 python yolov11n_polyp_detection.py CPU
 python yolov11n_polyp_detection.py GPU
