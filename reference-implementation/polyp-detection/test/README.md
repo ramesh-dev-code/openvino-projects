@@ -34,4 +34,12 @@ python yolov11n_polyp_detection.py GPU
 python yolov11n_polyp_detection.py NPU
 ```
 
-### Detection Result
+### Detection Results   
+CPU   
+![image](https://github.com/user-attachments/assets/a083d8fb-2777-4602-aecd-37c45e369231)
+
+iGPU   
+![image](https://github.com/user-attachments/assets/8ff22b2d-161f-4d53-8687-47a493accdc2)
+NPU   
+![image](https://github.com/user-attachments/assets/a28e69f4-acd5-4a56-b337-d31318d10a04)
+
