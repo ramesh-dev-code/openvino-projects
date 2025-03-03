@@ -8,5 +8,4 @@ Discrete GPU: Intel Arc A770 GPU (Driver: 24.39.31294)
 OS: Ubuntu 22.04 (Kernel: 6.8.0-52-generic)   
 Python: 3.10.12    
 PyTorch: torch 2.5-xpu      
-Ultralytics: 8.3.72   
-OpenVINO: 2024.5.0    
+Ultralytics: 8.3.72       
