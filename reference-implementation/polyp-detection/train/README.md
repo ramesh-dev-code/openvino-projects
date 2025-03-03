@@ -28,6 +28,10 @@ def select_device(device="", batch=0, newline=False, verbose=True):
    return torch.device("xpu")   
 ```
 #### Prepare the dataset   
+Create the datasets/coco_polyp folder with the polyp dataset in the ultralytics/ultralytics subfolder as below   
+![image](https://github.com/user-attachments/assets/c896ed85-2fc1-4c70-9a63-4a8fd8c83a80)
+
+#### Create the dataset configuration file to train the model
 ```
 #coco_polyp.yaml
 path: /home/edge-ai/Ramesh/Onyx/ultralytics/ultralytics/datasets/coco_polyp
@@ -45,3 +49,5 @@ Use the following command to verify the utilization of A770 GPU
 ```
 sudo intel_gpu_top   
 ```
+![image](https://github.com/user-attachments/assets/1ad9a5ef-0e04-4110-bc17-0a6dd2e7ed55)
+
