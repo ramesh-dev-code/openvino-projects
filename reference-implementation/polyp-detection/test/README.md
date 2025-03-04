@@ -1,4 +1,4 @@
-# Deploying YOLOv11n-based Polyp Detection in Colonoscopy Video on AI PC    
+# Deploying Polyp Detection in Colonoscopy Video on AI PC    
 
 ## Device Under Test   
 Processor: Intel Core Ultra 7 165U   
