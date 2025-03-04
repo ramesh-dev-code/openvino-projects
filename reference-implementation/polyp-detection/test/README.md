@@ -1,5 +1,8 @@
 # Deploying Polyp Detection in Colonoscopy Video on AI PC    
 
+## Disclaimer   
+The purpose of this demo is to quickly run the AI-enbaled healthcare application on the heterogeneous accelerators CPU/iGPU/NPU and not intended for direct clinical deployment    
+
 ## Device Under Test   
 Processor: Intel Core Ultra 7 165U   
 iGPU: Intel Graphics (Driver: 32.0.101.5763)   
