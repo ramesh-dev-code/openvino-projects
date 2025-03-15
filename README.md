@@ -1,5 +1,5 @@
 # OpenVINO Projects
-## Image Classification
+## [Image Classification](https://github.com/ramesh-dev-code/openvino-projects/tree/main/image-classification)   
 ## Object Detection
 ## Instance Segmentation
 ## Action Recognition
