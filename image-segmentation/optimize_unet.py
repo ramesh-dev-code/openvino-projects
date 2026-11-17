@@ -39,7 +39,7 @@ def main():
     converted_model = ov.convert_model(model, example_input=input_tensor, input=[1, 3, args.height, args.width])
     args.output_dir.mkdir(parents=True, exist_ok=True)
     model_path = args.output_dir / "model.xml"
-    ov.save_model(converted_model, model_path)
+    ov.save_model(converted_model, model_path, compress_to_fp16=False)
 
     compiled_model = ov.Core().compile_model(model_path, args.device)
     openvino_output = compiled_model(input_tensor.numpy())[compiled_model.output(0)]
